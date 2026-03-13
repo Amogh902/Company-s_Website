@@ -815,66 +815,30 @@ Provides detailed information about company services and improves search engine 
 
 The website now includes a dedicated Services page accessible at:
 
-/services
+# STEP 30 — Contact Page
 
-export default function SolutionsPage() {
-  return (
-    <div className="max-w-6xl mx-auto px-4 py-32">
+## Goal
 
-      <h1 className="text-5xl font-bold mb-8">
-        Solutions
-      </h1>
+Create a Contact page allowing potential clients to reach OffshoreMitra.
 
-      <p className="text-lg text-gray-600 mb-12">
-        OffshoreMitra helps organizations solve complex infrastructure
-        and DevOps challenges through scalable cloud solutions and
-        automation strategies.
-      </p>
+## File Created
 
-      <div className="grid md:grid-cols-2 gap-10">
+apps/app/contact/page.js
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">
-            DevOps Transformation
-          </h2>
-          <p className="text-gray-600">
-            Implement CI/CD pipelines, automation, and modern DevOps
-            practices to accelerate software delivery.
-          </p>
-        </div>
+## Features
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">
-            Cloud Migration
-          </h2>
-          <p className="text-gray-600">
-            Move legacy infrastructure to scalable cloud platforms
-            such as AWS, Azure, and Google Cloud.
-          </p>
-        </div>
+Contact form with:
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">
-            Infrastructure Automation
-          </h2>
-          <p className="text-gray-600">
-            Automate infrastructure provisioning using Infrastructure
-            as Code tools like Terraform and CloudFormation.
-          </p>
-        </div>
+Name
+Email
+Message
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">
-            Cloud Cost Optimization
-          </h2>
-          <p className="text-gray-600">
-            Reduce cloud spending by implementing FinOps practices and
-            infrastructure efficiency strategies.
-          </p>
-        </div>
+## Purpose
 
-      </div>
+The Contact page enables website visitors to submit inquiries and start conversations regarding DevOps consulting and cloud infrastructure solutions.
 
-    </div>
-  );
-}
+## Result
+
+The website now includes a fully structured contact page accessible at:
+
+/contact
