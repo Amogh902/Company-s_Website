@@ -763,3 +763,56 @@ Example Structure:
     <lastmod>2026-03-13</lastmod>
   </url>
 </urlset>
+
+# STEP 24 — Multi-Page Website Architecture
+
+## Goal
+
+Extend the website from a single landing page to a multi-page company website.
+
+## Purpose
+
+Most professional websites contain multiple pages such as Services, About, and Contact.
+This improves navigation, SEO structure, and scalability.
+
+## Implementation
+
+Using the Next.js App Router system, new routes are created by adding folders inside the `app` directory.
+
+Example routing structure:
+
+app/page.js → `/` (Homepage)
+app/services/page.js → `/services`
+app/about/page.js → `/about`
+app/contact/page.js → `/contact`
+
+## Result
+
+The project transitions from a single landing page into a structured multi-page website architecture.
+
+# STEP 25 — Services Page
+
+## Goal
+
+Create a dedicated Services page describing the offerings provided by OffshoreMitra.
+
+## File Created
+
+apps/app/services/page.js
+
+## Content Included
+
+DevOps Engineering
+Cloud Infrastructure Solutions
+FinOps Optimization
+DevSecOps Integration
+
+## Purpose
+
+Provides detailed information about company services and improves search engine indexing for service-related queries.
+
+## Result
+
+The website now includes a dedicated Services page accessible at:
+
+/services
