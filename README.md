@@ -536,3 +536,24 @@ Modern card styling
 ## File Updated
 
 sections/Services.js
+
+# STEP 15 — Modern Navbar
+
+## Goal
+
+Upgrade the navigation bar to a modern SaaS style.
+
+---
+
+## Improvements
+
+Sticky navigation bar
+Improved spacing
+Navigation hover effects
+CTA button
+
+---
+
+## File Updated
+
+components/Navbar.js
