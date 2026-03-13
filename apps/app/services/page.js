@@ -25,7 +25,7 @@ export default function ServicesPage() {
         >
 
           {/* DevOps */}
-          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300">
 
             <Server size={36} className="text-blue-600 mb-4" />
 
@@ -41,7 +41,7 @@ export default function ServicesPage() {
           </div>
 
           {/* Cloud */}
-          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300">
 
             <Cloud size={36} className="text-blue-600 mb-4" />
 
@@ -57,7 +57,7 @@ export default function ServicesPage() {
           </div>
 
           {/* FinOps */}
-          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300">
 
             <Activity size={36} className="text-blue-600 mb-4" />
 
@@ -73,7 +73,7 @@ export default function ServicesPage() {
           </div>
 
           {/* DevSecOps */}
-          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300">
 
             <Shield size={36} className="text-blue-600 mb-4" />
 

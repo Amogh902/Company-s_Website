@@ -1190,3 +1190,24 @@ viewport={{ once: true }}
 ## Result
 
 Sections smoothly appear as users scroll through the page, creating a modern SaaS-style interaction.
+
+# STEP 46 — Interactive Card Hover Animation
+
+## Goal
+
+Improve user interaction by making service cards respond visually to hover events.
+
+## Implementation
+
+Added hover animations using Tailwind CSS utilities.
+
+Example:
+
+hover:-translate-y-2
+hover:scale-[1.02]
+hover:shadow-xl
+transition-all duration-300
+
+## Result
+
+Service cards now lift and scale slightly when hovered, creating a modern SaaS-style interaction.
