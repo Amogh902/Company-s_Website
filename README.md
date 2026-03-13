@@ -970,3 +970,107 @@ Consistent spacing and styling
 ## Result
 
 The Contact page now visually aligns with all other pages in the website.
+
+# STEP 37 — Contact Form Email Integration
+
+## Goal
+
+Enable the contact form to send real emails when users submit inquiries.
+
+## Technology Used
+
+Resend email API
+Next.js API routes
+
+## Implementation
+
+Installed Resend package
+
+Created backend API endpoint:
+
+app/api/contact/route.js
+
+The endpoint receives form submissions and sends an email notification.
+
+## Result
+
+Website visitors can now submit contact inquiries that are delivered directly to the company email inbox.
+
+# STEP 38 — Email Service Setup (Resend)
+
+## Goal
+
+Enable the website contact form to send real email notifications when visitors submit inquiries.
+
+## Technology Used
+
+Resend Email API
+Next.js API Routes
+
+## Why Resend
+
+Resend is a modern email service designed for developers.
+It integrates easily with Next.js and provides reliable email delivery for web applications.
+
+## Installation
+
+Install the Resend package in the project.
+
+npm install resend
+
+## Result
+
+The project now includes the Resend SDK which allows sending emails programmatically from the backend.
+
+# STEP 39 — Environment Configuration
+
+## Goal
+
+Securely store the Resend API key using environment variables.
+
+## File Created
+
+.env.local
+
+## Configuration
+
+RESEND_API_KEY=your_resend_api_key_here
+
+## Purpose
+
+Environment variables keep sensitive credentials secure and prevent them from being exposed in the public code repository.
+
+## Important Notes
+
+.env.local should never be pushed to GitHub.
+
+Ensure the file is listed in `.gitignore`.
+
+## Server Restart
+
+After adding environment variables, restart the development server.
+
+Ctrl + C
+npm run dev
+
+# STEP 40 — Contact Form Email Workflow
+
+## Goal
+
+Connect the frontend contact form to the backend email API.
+
+## Workflow
+
+User submits contact form
+↓
+Form sends request to `/api/contact`
+↓
+Next.js API route processes the request
+↓
+Resend sends email notification
+↓
+Message delivered to company email inbox
+
+## Result
+
+The website contact form becomes fully functional and capable of receiving real client inquiries.
