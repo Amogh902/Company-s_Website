@@ -470,3 +470,26 @@ Layout spacing
 ## Outcome
 
 The website will transition from a basic layout to a visually polished and professional interface.
+
+# STEP 12 — Modern Hero Section
+
+## Goal
+
+Upgrade the hero section to follow a modern SaaS design style.
+
+This includes improved typography, spacing, and a gradient background.
+
+---
+
+## Improvements
+
+Gradient hero background
+Improved typography scale
+Modern button styling
+Better spacing
+
+---
+
+## File Updated
+
+sections/Hero.js
