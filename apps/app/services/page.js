@@ -1,52 +1,58 @@
+import PageHero from "../../components/PageHero";
+
 export default function ServicesPage() {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-32">
+    <div>
 
-      <h1 className="text-5xl font-bold mb-8">
-        Our Services
-      </h1>
+      <PageHero
+        title="Our Services"
+        description="OffshoreMitra provides DevOps consulting, cloud infrastructure solutions, and automation to help businesses scale efficiently."
+      />
 
-      <p className="text-lg text-gray-600 mb-12">
-        OffshoreMitra provides DevOps consulting, cloud infrastructure
-        architecture, automation, and FinOps optimization services.
-      </p>
+      <div className="max-w-6xl mx-auto px-4 py-20">
 
-      <div className="grid md:grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">
-            DevOps Engineering
-          </h2>
-          <p className="text-gray-600">
-            CI/CD pipeline design, automation, and infrastructure as code.
-          </p>
-        </div>
+          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold mb-3">
+              DevOps Engineering
+            </h3>
+            <p className="text-gray-600">
+              CI/CD pipelines, automation, and infrastructure as code
+              to accelerate software delivery.
+            </p>
+          </div>
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">
-            Cloud Solutions
-          </h2>
-          <p className="text-gray-600">
-            Scalable infrastructure architecture across AWS, Azure and GCP.
-          </p>
-        </div>
+          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold mb-3">
+              Cloud Solutions
+            </h3>
+            <p className="text-gray-600">
+              Design scalable cloud infrastructure across AWS,
+              Azure, and Google Cloud.
+            </p>
+          </div>
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">
-            FinOps Optimization
-          </h2>
-          <p className="text-gray-600">
-            Cloud cost management and infrastructure optimization strategies.
-          </p>
-        </div>
+          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold mb-3">
+              FinOps Optimization
+            </h3>
+            <p className="text-gray-600">
+              Reduce cloud costs through monitoring,
+              optimization, and efficient architecture.
+            </p>
+          </div>
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">
-            DevSecOps
-          </h2>
-          <p className="text-gray-600">
-            Security integration within CI/CD pipelines and infrastructure.
-          </p>
+          <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold mb-3">
+              DevSecOps
+            </h3>
+            <p className="text-gray-600">
+              Integrate security practices into your DevOps
+              pipelines and infrastructure workflows.
+            </p>
+          </div>
+
         </div>
 
       </div>
