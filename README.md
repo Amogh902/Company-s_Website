@@ -349,3 +349,26 @@ sections/Services.js
 The services section helps potential clients quickly understand the technical expertise of the company.
 
 Each service will be displayed as a card with a title and description.
+
+# STEP 7 — Why Choose Us Section
+
+## Goal
+
+Create a section explaining why clients should choose OffshoreMitra.
+
+This section highlights the company's strengths and differentiators.
+
+---
+
+## Focus Areas
+
+DevOps Expertise
+Cloud Infrastructure
+Automation & CI/CD
+Cost Optimization
+
+---
+
+## File Location
+
+sections/WhyUs.js
