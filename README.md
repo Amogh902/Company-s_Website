@@ -557,3 +557,24 @@ CTA button
 ## File Updated
 
 components/Navbar.js
+
+# STEP 16 — Modern Why Choose Us Section
+
+## Goal
+
+Upgrade the "Why Choose Us" section to match the modern SaaS design style.
+
+---
+
+## Improvements
+
+Feature cards with icons
+Better spacing and layout
+Hover effects
+Consistent styling with the services section
+
+---
+
+## File Updated
+
+sections/WhyUs.js
