@@ -1114,3 +1114,32 @@ Improved perceived performance
 ## Installation
 
 npm install framer-motion
+
+# STEP 43 — Service Icons
+
+## Goal
+
+Improve visual clarity of the services section by introducing professional icons.
+
+## Library Used
+
+Lucide React
+
+## Installation
+
+npm install lucide-react
+
+## Implementation
+
+Each service card now includes an SVG icon component.
+
+Examples:
+
+Server → DevOps Engineering
+Cloud → Cloud Solutions
+Activity → FinOps Optimization
+Shield → DevSecOps
+
+## Result
+
+Service cards are more visually engaging and easier for visitors to scan.
