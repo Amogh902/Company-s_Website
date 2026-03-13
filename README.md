@@ -929,3 +929,44 @@ Consistent layout spacing
 ## Result
 
 The About page now visually aligns with the homepage and services page design.
+
+# STEP 35 — Solutions Page Styling
+
+## Goal
+
+Upgrade the Solutions page to match the modern SaaS design system used across the website.
+
+## File Updated
+
+app/solutions/page.js
+
+## Improvements
+
+Gradient hero banner
+Solution cards layout
+Hover effects
+Consistent page spacing
+
+## Result
+
+The Solutions page now visually aligns with the homepage, services page, and about page.
+
+# STEP 36 — Contact Page Styling
+
+## Goal
+
+Upgrade the Contact page to match the design system used across the website.
+
+## File Updated
+
+app/contact/page.js
+
+## Improvements
+
+Gradient hero banner
+Card-based form layout
+Consistent spacing and styling
+
+## Result
+
+The Contact page now visually aligns with all other pages in the website.
