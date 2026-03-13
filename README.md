@@ -437,3 +437,36 @@ Copyright notice
 ## File Location
 
 sections/Footer.js
+
+
+# Phase 2 — Design System
+
+## Goal
+
+Transform the website from a structural wireframe into a modern SaaS-style interface.
+
+This phase introduces a consistent visual system including colors, typography, and reusable UI patterns.
+
+---
+
+## Design Style
+
+Modern SaaS
+
+Inspired by modern technology platforms such as Stripe, Vercel, and Linear.
+
+---
+
+## Design Elements
+
+Color palette
+Typography scale
+Button system
+Card styling
+Layout spacing
+
+---
+
+## Outcome
+
+The website will transition from a basic layout to a visually polished and professional interface.
