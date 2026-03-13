@@ -288,3 +288,33 @@ components/Navbar.js
 The Navbar component will be reusable across all pages of the website.
 
 It will later support responsive design for mobile devices.
+
+# STEP 5 — Hero Section
+
+## Goal
+
+Create the hero section for the homepage.
+
+The hero section is the first visible area of the website and introduces the company to visitors.
+
+It typically includes a headline, supporting description, and a call-to-action button.
+
+---
+
+## Content Focus
+
+The hero section will communicate the core value of the company:
+
+DevOps and Cloud Consulting Services.
+
+---
+
+## File Location
+
+sections/Hero.js
+
+---
+
+## Purpose
+
+The hero section acts as the primary entry point for visitors and highlights the company's services and expertise.
