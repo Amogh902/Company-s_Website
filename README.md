@@ -1143,3 +1143,27 @@ Shield → DevSecOps
 ## Result
 
 Service cards are more visually engaging and easier for visitors to scan.
+
+# STEP 44 — Framer Motion Animation
+
+## Goal
+
+Introduce smooth animations to improve UI experience.
+
+## Library Used
+
+Framer Motion
+
+## Important Next.js Requirement
+
+Pages using Framer Motion must be marked as Client Components.
+
+This is done by adding:
+
+"use client";
+
+at the top of the file.
+
+## Result
+
+Service cards now animate smoothly when the page loads, creating a more dynamic and modern interface.

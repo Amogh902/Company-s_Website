@@ -1,3 +1,5 @@
+"use client";
+
 import { Cloud, Server, Shield, Activity } from "lucide-react";
 import { motion } from "framer-motion";
 
