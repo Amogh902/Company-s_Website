@@ -1,40 +1,44 @@
+import PageHero from "../../components/PageHero";
+
 export default function AboutPage() {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-32">
+    <div>
 
-      <h1 className="text-5xl font-bold mb-8">
-        About OffshoreMitra
-      </h1>
+      <PageHero
+        title="About OffshoreMitra"
+        description="Helping organizations accelerate digital transformation through DevOps, cloud infrastructure, and automation."
+      />
 
-      <p className="text-lg text-gray-600 mb-10">
-        OffshoreMitra helps organizations accelerate their digital
-        transformation through DevOps practices, cloud infrastructure,
-        and automation. Our mission is to simplify modern infrastructure
-        and enable teams to deliver software faster and more reliably.
-      </p>
+      <div className="max-w-6xl mx-auto px-4 py-20">
 
-      <div className="grid md:grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 gap-12">
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">
-            Our Mission
-          </h2>
-          <p className="text-gray-600">
-            We aim to empower engineering teams with scalable
-            infrastructure, efficient automation, and reliable
-            deployment pipelines.
-          </p>
-        </div>
+          <div>
+            <h2 className="text-3xl font-bold mb-4">
+              Our Mission
+            </h2>
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">
-            Our Expertise
-          </h2>
-          <p className="text-gray-600">
-            Our team specializes in DevOps engineering, cloud
-            architecture, infrastructure as code, and cost
-            optimization strategies.
-          </p>
+            <p className="text-gray-600 leading-relaxed">
+              OffshoreMitra empowers engineering teams by building
+              scalable infrastructure and modern DevOps workflows.
+              Our mission is to help companies deliver software
+              faster, more reliably, and at lower operational cost.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold mb-4">
+              Our Expertise
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed">
+              Our team specializes in DevOps engineering, cloud
+              architecture, infrastructure as code, and automation.
+              We help businesses design resilient infrastructure
+              and optimize cloud operations.
+            </p>
+          </div>
+
         </div>
 
       </div>
