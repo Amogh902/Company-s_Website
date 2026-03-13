@@ -1,6 +1,33 @@
 export default function Services() {
+  const services = [
+    {
+      title: "DevOps Engineering",
+      description:
+        "Automate and streamline development pipelines for faster delivery.",
+      icon: "⚙️",
+    },
+    {
+      title: "Cloud Solutions",
+      description:
+        "Build scalable infrastructure using AWS, Azure and GCP.",
+      icon: "☁️",
+    },
+    {
+      title: "FinOps Optimization",
+      description:
+        "Reduce cloud spending with cost optimization strategies.",
+      icon: "💰",
+    },
+    {
+      title: "DevSecOps",
+      description:
+        "Integrate security into the development lifecycle.",
+      icon: "🔐",
+    },
+  ];
+
   return (
-    <section className="py-24 bg-white">
+    <section className="py-28 bg-white">
       <div className="max-w-6xl mx-auto px-4">
 
         <h2 className="text-4xl font-bold text-center mb-16">
@@ -9,45 +36,30 @@ export default function Services() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-          <div className="p-6 border rounded-xl shadow-sm hover:shadow-md">
-            <h3 className="text-xl font-semibold mb-3">
-              DevOps Engineering
-            </h3>
-            <p className="text-gray-600">
-              Automate and streamline development pipelines for faster delivery.
-            </p>
-          </div>
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition"
+            >
 
-          <div className="p-6 border rounded-xl shadow-sm hover:shadow-md">
-            <h3 className="text-xl font-semibold mb-3">
-              Cloud Solutions
-            </h3>
-            <p className="text-gray-600">
-              Build scalable infrastructure using AWS, Azure and GCP.
-            </p>
-          </div>
+              <div className="text-4xl mb-4">
+                {service.icon}
+              </div>
 
-          <div className="p-6 border rounded-xl shadow-sm hover:shadow-md">
-            <h3 className="text-xl font-semibold mb-3">
-              FinOps Optimization
-            </h3>
-            <p className="text-gray-600">
-              Reduce cloud spending with cost optimization strategies.
-            </p>
-          </div>
+              <h3 className="text-xl font-semibold mb-3">
+                {service.title}
+              </h3>
 
-          <div className="p-6 border rounded-xl shadow-sm hover:shadow-md">
-            <h3 className="text-xl font-semibold mb-3">
-              DevSecOps
-            </h3>
-            <p className="text-gray-600">
-              Integrate security into the development lifecycle.
-            </p>
-          </div>
+              <p className="text-gray-600">
+                {service.description}
+              </p>
+
+            </div>
+          ))}
 
         </div>
 
       </div>
     </section>
-  )
+  );
 }

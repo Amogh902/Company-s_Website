@@ -515,3 +515,24 @@ Easier maintenance
 ## File Location
 
 components/Button.js
+
+# STEP 14 — Modern Services Cards
+
+## Goal
+
+Upgrade the services section to a modern SaaS-style layout using feature cards.
+
+---
+
+## Improvements
+
+Icon-based service cards
+Hover effects
+Improved spacing
+Modern card styling
+
+---
+
+## File Updated
+
+sections/Services.js
