@@ -1,3 +1,5 @@
+import Button from "../components/Button";
+
 export default function Hero() {
   return (
     <section className="relative py-32 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white">
@@ -14,17 +16,17 @@ export default function Hero() {
 
         <div className="mt-10 flex justify-center gap-6">
 
-          <button className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg shadow hover:bg-gray-100">
+          <Button>
             Explore Services
-          </button>
+          </Button>
 
-          <button className="border border-white px-8 py-3 rounded-lg hover:bg-white hover:text-blue-700 transition">
+          <Button variant="outline">
             Contact Us
-          </button>
+          </Button>
 
         </div>
 
       </div>
     </section>
-  )
+  );
 }

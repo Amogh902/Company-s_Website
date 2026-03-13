@@ -493,3 +493,25 @@ Better spacing
 ## File Updated
 
 sections/Hero.js
+
+# STEP 13 — Reusable Button Component
+
+## Goal
+
+Create a reusable button component to ensure consistent styling across the website.
+
+Instead of repeating button styles in multiple files, a single component will be used.
+
+---
+
+## Benefits
+
+Consistent UI styling
+Reusable across sections
+Easier maintenance
+
+---
+
+## File Location
+
+components/Button.js
