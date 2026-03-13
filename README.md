@@ -842,3 +842,23 @@ The Contact page enables website visitors to submit inquiries and start conversa
 The website now includes a fully structured contact page accessible at:
 
 /contact
+
+# STEP 31 — Page Layout Component
+
+## Goal
+
+Create a reusable layout container for all internal pages.
+
+## File Created
+
+components/PageContainer.js
+
+## Purpose
+
+Ensures consistent spacing and layout across all pages.
+
+Instead of repeating layout classes on every page, a reusable component is used.
+
+## Result
+
+All internal pages can now share the same layout structure and maintain consistent design.
