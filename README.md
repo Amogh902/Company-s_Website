@@ -641,3 +641,23 @@ Contact information section
 ## File Updated
 
 sections/Footer.js
+
+# STEP 20 — SEO Metadata Setup
+
+## Goal
+
+Add global SEO metadata for the website.
+
+---
+
+## Benefits
+
+Improves search engine visibility
+Controls page title and description
+Improves social media previews
+
+---
+
+## File Updated
+
+app/layout.js
