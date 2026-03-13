@@ -1167,3 +1167,26 @@ at the top of the file.
 ## Result
 
 Service cards now animate smoothly when the page loads, creating a more dynamic and modern interface.
+
+# STEP 45 — Scroll Reveal Animation
+
+## Goal
+
+Improve the user experience by animating sections when they enter the viewport.
+
+## Library Used
+
+Framer Motion
+
+## Implementation
+
+Instead of animating on page load, components animate when they become visible.
+
+Example:
+
+whileInView={{ opacity: 1, y: 0 }}
+viewport={{ once: true }}
+
+## Result
+
+Sections smoothly appear as users scroll through the page, creating a modern SaaS-style interaction.
