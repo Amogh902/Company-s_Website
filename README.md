@@ -255,3 +255,36 @@ Navbar
 This modular structure allows the homepage to be built using reusable components, improving scalability and maintainability.
 
 Each section will later contain its own layout and styling.
+
+
+# STEP 4 — Navbar Component
+
+## Goal
+
+Create the navigation bar that will appear at the top of the website.
+
+The navbar allows users to navigate to important sections of the company website.
+
+---
+
+## Navigation Links
+
+Home
+Services
+Solutions
+About
+Contact
+
+---
+
+## Component Location
+
+components/Navbar.js
+
+---
+
+## Purpose
+
+The Navbar component will be reusable across all pages of the website.
+
+It will later support responsive design for mobile devices.
