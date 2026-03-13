@@ -578,3 +578,24 @@ Consistent styling with the services section
 ## File Updated
 
 sections/WhyUs.js
+
+# STEP 17 — Modern Testimonials Section
+
+## Goal
+
+Upgrade the testimonials section to modern review cards.
+
+---
+
+## Improvements
+
+Review cards
+Star ratings
+Better spacing
+Consistent card styling
+
+---
+
+## File Updated
+
+sections/Testimonials.js
