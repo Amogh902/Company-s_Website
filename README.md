@@ -318,3 +318,34 @@ sections/Hero.js
 ## Purpose
 
 The hero section acts as the primary entry point for visitors and highlights the company's services and expertise.
+
+# STEP 6 — Services Section
+
+## Goal
+
+Create a section that highlights the key services offered by the company.
+
+This section will give visitors a quick overview of the core capabilities of the organization.
+
+---
+
+## Services Displayed
+
+DevOps Engineering
+Cloud Solutions
+FinOps Optimization
+DevSecOps Security
+
+---
+
+## File Location
+
+sections/Services.js
+
+---
+
+## Purpose
+
+The services section helps potential clients quickly understand the technical expertise of the company.
+
+Each service will be displayed as a card with a title and description.
