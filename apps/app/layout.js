@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "OffshoreMitra | DevOps & Cloud Consulting",
   description:
@@ -19,3 +21,11 @@ export const metadata = {
       "DevOps consulting, cloud infrastructure, automation, and FinOps optimization services.",
   },
 };
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}

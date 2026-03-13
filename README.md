@@ -662,3 +662,104 @@ Improves social media previews
 
 app/layout.js
 
+# STEP 21 — Open Graph SEO
+
+## Goal
+
+Add Open Graph metadata so the website generates proper preview cards when shared on social media platforms.
+
+## Benefits
+
+Improves link previews on social media
+Increases engagement when links are shared
+Provides consistent branding across platforms
+
+## Platforms Supported
+
+LinkedIn
+Twitter
+Facebook
+
+## File Updated
+
+apps/app/layout.js
+
+## Implementation
+
+Extended the existing metadata object with Open Graph and Twitter properties.
+
+## Outcome
+
+When the website link is shared, platforms will display a preview card including:
+
+* Website title
+* Description
+* Preview image (optional future enhancement)
+
+This improves the professional appearance of shared links.
+
+# STEP 22 — robots.txt
+
+## Goal
+
+Provide search engines with instructions about how they can crawl the website.
+
+## Purpose
+
+The robots.txt file allows search engines to understand which pages can be indexed.
+
+## File Created
+
+apps/app/robots.js
+
+## Implementation
+
+The robots configuration allows all search engines to crawl the entire website.
+
+## Result
+
+When deployed, the site automatically generates:
+
+https://offshoremitra.com/robots.txt
+
+Example Output:
+
+User-agent: *
+Allow: /
+
+Sitemap: https://offshoremitra.com/sitemap.xml
+
+# STEP 23 — sitemap.xml
+
+## Goal
+
+Generate a sitemap so search engines can discover website pages more efficiently.
+
+## Purpose
+
+A sitemap helps search engines crawl and index the website faster.
+
+## File Created
+
+apps/app/sitemap.js
+
+## Implementation
+
+The sitemap currently lists the homepage.
+
+Future pages such as services, solutions, and about pages can be added here.
+
+## Result
+
+When deployed, the website automatically generates:
+
+https://offshoremitra.com/sitemap.xml
+
+Example Structure:
+
+<urlset>
+  <url>
+    <loc>https://offshoremitra.com</loc>
+    <lastmod>2026-03-13</lastmod>
+  </url>
+</urlset>
