@@ -1,62 +1,136 @@
-import Button from "./Button";
+import PageHero from "../../components/PageHero";
 import Link from "next/link";
 
-export default function Navbar() {
+export default function CareersPage() {
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-md bg-white/70 border-b border-gray-200">
+    <div>
 
-      <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-4">
+      <PageHero
+        title="Careers at OffshoreMitra"
+        description="Join our team of DevOps and cloud engineers building modern infrastructure solutions for companies worldwide."
+      />
 
-        {/* Logo */}
-        <Link
-          href="/"
-          className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent"
-        >
-          OffshoreMitra
-        </Link>
+      {/* Why Work With Us */}
 
-        {/* Navigation */}
-        <ul className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
+      <section className="bg-gray-50 py-24">
 
-          <li>
-            <Link href="/" className="hover:text-blue-600 transition-colors">
-              Home
-            </Link>
-          </li>
+        <div className="max-w-6xl mx-auto px-4 text-center">
 
-          <li>
-            <Link href="/services" className="hover:text-blue-600 transition-colors">
-              Services
-            </Link>
-          </li>
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Why Work With OffshoreMitra
+          </h2>
 
-          <li>
-            <Link href="/solutions" className="hover:text-blue-600 transition-colors">
-              Careers
-            </Link>
-          </li>
+          <p className="text-gray-600 max-w-3xl mx-auto">
+            We believe in empowering engineers to build modern cloud
+            infrastructure, work with cutting-edge technologies, and solve
+            real-world scalability challenges.
+          </p>
 
-          <li>
-            <Link href="/about" className="hover:text-blue-600 transition-colors">
-              About
-            </Link>
-          </li>
+          <div className="grid md:grid-cols-3 gap-8 mt-16">
 
-          <li>
-            <Link href="/contact" className="hover:text-blue-600 transition-colors">
-              Contact
-            </Link>
-          </li>
+            <div className="p-8 bg-white rounded-xl border border-gray-200">
+              <h3 className="font-semibold text-lg mb-3">
+                Work With Modern Tech
+              </h3>
+              <p className="text-gray-600">
+                Kubernetes, Terraform, CI/CD, Cloud Platforms and modern
+                DevOps tooling.
+              </p>
+            </div>
 
-        </ul>
+            <div className="p-8 bg-white rounded-xl border border-gray-200">
+              <h3 className="font-semibold text-lg mb-3">
+                Flexible Work Environment
+              </h3>
+              <p className="text-gray-600">
+                Remote-friendly culture with flexible collaboration across
+                engineering teams.
+              </p>
+            </div>
 
-        {/* CTA Button */}
-        <div className="hidden md:block">
-          <Button>Get Started</Button>
+            <div className="p-8 bg-white rounded-xl border border-gray-200">
+              <h3 className="font-semibold text-lg mb-3">
+                Growth & Learning
+              </h3>
+              <p className="text-gray-600">
+                Continuous learning through real-world DevOps and cloud
+                infrastructure projects.
+              </p>
+            </div>
+
+          </div>
+
         </div>
 
-      </div>
+      </section>
 
-    </nav>
+      {/* Open Positions */}
+
+      <section className="py-24">
+
+        <div className="max-w-6xl mx-auto px-4">
+
+          <div className="text-center mb-16">
+
+            <h2 className="text-3xl font-bold text-gray-900">
+              Open Positions
+            </h2>
+
+            <p className="text-gray-600 mt-4">
+              We are always looking for talented engineers passionate about
+              DevOps and cloud infrastructure.
+            </p>
+
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+
+            <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm">
+
+              <h3 className="text-xl font-semibold mb-3">
+                DevOps Engineer
+              </h3>
+
+              <p className="text-gray-600 mb-6">
+                Work with CI/CD pipelines, Kubernetes, and cloud platforms to
+                help companies scale their infrastructure.
+              </p>
+
+              <Link
+                href="/contact"
+                className="text-blue-600 font-medium hover:underline"
+              >
+                Apply Now →
+              </Link>
+
+            </div>
+
+            <div className="p-8 bg-white rounded-xl border border-gray-200 shadow-sm">
+
+              <h3 className="text-xl font-semibold mb-3">
+                Cloud Engineer
+              </h3>
+
+              <p className="text-gray-600 mb-6">
+                Design and manage scalable infrastructure across AWS, Azure,
+                and modern cloud environments.
+              </p>
+
+              <Link
+                href="/contact"
+                className="text-blue-600 font-medium hover:underline"
+              >
+                Apply Now →
+              </Link>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
   );
 }
