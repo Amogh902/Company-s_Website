@@ -414,3 +414,26 @@ Contact button
 ## File Location
 
 sections/CTA.js
+
+# STEP 10 — Footer Section
+
+## Goal
+
+Create the footer section that appears at the bottom of the website.
+
+The footer provides additional navigation, company information, and contact details.
+
+---
+
+## Content
+
+Company name
+Quick navigation links
+Contact information
+Copyright notice
+
+---
+
+## File Location
+
+sections/Footer.js
