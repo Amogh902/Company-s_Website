@@ -1,31 +1,26 @@
 import "./globals.css";
 
+import Navbar from "../components/Navbar";
+import Footer from "../sections/Footer";
+
 export const metadata = {
   title: "OffshoreMitra | DevOps & Cloud Consulting",
   description:
-    "OffshoreMitra provides DevOps consulting, cloud infrastructure solutions, automation, and FinOps optimization for modern businesses.",
-
-  openGraph: {
-    title: "OffshoreMitra | DevOps & Cloud Consulting",
-    description:
-      "DevOps consulting, cloud infrastructure, automation, and FinOps optimization services.",
-    url: "https://offshoremitra.com",
-    siteName: "OffshoreMitra",
-    type: "website",
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "OffshoreMitra | DevOps & Cloud Consulting",
-    description:
-      "DevOps consulting, cloud infrastructure, automation, and FinOps optimization services.",
-  },
+    "OffshoreMitra provides DevOps consulting, cloud infrastructure solutions, automation and FinOps optimization.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+
+        <Navbar />
+
+        {children}
+
+        <Footer />
+
+      </body>
     </html>
   );
 }
