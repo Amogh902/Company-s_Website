@@ -862,3 +862,28 @@ Instead of repeating layout classes on every page, a reusable component is used.
 ## Result
 
 All internal pages can now share the same layout structure and maintain consistent design.
+
+# STEP 32 — Page Hero Component
+
+## Goal
+
+Create a reusable hero banner component for internal pages.
+
+## File Created
+
+components/PageHero.js
+
+## Purpose
+
+Maintain visual consistency across all pages by using a shared gradient hero section.
+
+## Usage
+
+The component accepts:
+
+title
+description
+
+## Result
+
+All internal pages can display a modern gradient hero banner similar to the homepage.
