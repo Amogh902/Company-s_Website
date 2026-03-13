@@ -372,3 +372,23 @@ Cost Optimization
 ## File Location
 
 sections/WhyUs.js
+
+# STEP 8 — Testimonials Section
+
+## Goal
+
+Create a section that displays client feedback or testimonials.
+
+Testimonials help establish trust and credibility for potential customers visiting the website.
+
+---
+
+## Content
+
+Client feedback highlighting successful collaborations with OffshoreMitra.
+
+---
+
+## File Location
+
+sections/Testimonials.js
