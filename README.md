@@ -392,3 +392,25 @@ Client feedback highlighting successful collaborations with OffshoreMitra.
 ## File Location
 
 sections/Testimonials.js
+
+# STEP 9 — Call To Action (CTA)
+
+## Goal
+
+Create a call-to-action section encouraging visitors to contact OffshoreMitra.
+
+The CTA is designed to guide potential clients toward initiating a conversation about their DevOps or cloud infrastructure needs.
+
+---
+
+## Content
+
+Headline encouraging collaboration
+Short supporting message
+Contact button
+
+---
+
+## File Location
+
+sections/CTA.js
